@@ -1,6 +1,8 @@
 import React from "react";
 /*const [color, setColor] = React.useState ("red")*/
 
+import Semaforo from "./Semaforo.jsx";
+
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 
@@ -8,14 +10,12 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const  Home = () => {
 	
 
-	selectedColor = "blueviolet"
 	return (
-		<div className="traffic-light">
-			<div className="Light red" /*onClick= {()=setColor(red)}*/>r</div>	
-			<div className="Light yellow">y</div>	
-			<div className="Light green brillo">g</div>	
-		</div>
-	);
+		
+		<Semaforo />
+		
+		
+		);
 };
 
 export default Home;
