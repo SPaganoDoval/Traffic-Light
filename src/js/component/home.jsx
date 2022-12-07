@@ -2,6 +2,7 @@ import React from "react";
 /*const [color, setColor] = React.useState ("red")*/
 
 import Semaforo from "./Semaforo.jsx";
+import TrafficLight from "./TrafficLight.jsx";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -11,8 +12,10 @@ const  Home = () => {
 	
 
 	return (
-		
-		<Semaforo />
+		<div>
+			<Semaforo />
+			<TrafficLight />
+		</div>
 		
 		
 		);
